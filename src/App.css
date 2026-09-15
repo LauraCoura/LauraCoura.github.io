@@ -1,0 +1,240 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #2A2632;
+}
+
+body {
+  background-color: #2A2632;
+  color: white;
+}
+
+.header {
+  background-color: #0F0D11;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+}
+
+.nav a:hover {
+  color: #4FBAAF;
+}
+
+.main-greeting{
+  display: flex;
+  align-items: center;
+  margin-right: 5em;
+  margin-left: 5em;
+  margin-top: -3em;
+  background-image: url("../src/assets/backgrounds/background_greeting.png");
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: 2%;
+  height: 30em; 
+}
+
+.main-greeting-text{
+  text-align: left;
+}
+
+.hello{
+  font-size: 3em;
+  font-family: 'W95FA';
+  margin-bottom: .5em;
+  background-image: url("../src/assets/backgrounds/background_titles.png");
+  background-repeat: no-repeat;
+  background-size: 35%;
+  background-position: 0%;
+}
+
+.short-greeting{
+  font-size: 1.3em;
+  padding-right: 10em;
+}
+
+.svg-main-greeting{
+  margin-top: -5em;
+}
+
+.main-greeting-icons{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.2em;
+  margin-top: 5em;
+  padding: 1em;
+  flex-wrap: wrap;
+  align-content: space-between;
+  background-image: url("../src/assets/backgrounds/background_buttons.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0%;
+}
+
+.icons-row{
+  flex-direction: row;
+  display: flex;
+}
+
+.icon-button{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: 'W95FA';
+  color: white;
+  background: none;
+  margin-inline: 2em;
+}
+
+.menu-icon{
+  width: 3.5em;
+}
+
+.card-main{
+  padding: .7em;
+  text-align: left;
+  background-color: #4F485C;
+  margin-top: 1em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-header{
+  background-image: linear-gradient(to right, #292431, #3B2F50);
+  display: flex;
+  flex-direction: row;
+  font-family: 'W95FA';
+  font-size: 1.2em;
+  align-items: center;
+  height: 2em;
+}
+
+.card-header-icon{
+  height: 1.2em;
+  margin: .5em;
+}
+
+.icon-website{
+  display: flex;
+  flex-direction: column;
+  margin-right: 1em;
+  align-items: center;
+  background: none;
+  font-family: 'W95FA';
+  color: white;
+}
+
+.icon-text{
+  height: 1.6em;
+  margin-right: .5em;
+}
+
+.icons-text-row{
+  display: flex;
+  align-items: center;
+}
+
+.main-text-papers{
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+}
+
+.text-link{
+  margin-left: .5em;
+  margin-right: .5em;
+  color: #4FBAAF;
+}
+
+.text-link-papers{
+  color: white;
+}
+
+.main-text-projects{
+  display: flex;
+  flex-direction: row;
+}
+
+.image-logo-project{
+  height: 10em;
+  padding: .5em;
+  align-self: center;
+}
+
+.image-logo-educaminas{
+  height: 5em;
+  padding: .5em;
+  align-self: center;
+}
+
+.title-page{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: -1em;
+}
+
+.title-icon{
+  height: 3em;
+  align-self: center;
+  margin-right: 1em;
+}
+
+.image-portfolio{
+  height: 20em;
+  margin: 1em;
+}
+
+.title-portfolio{
+  font-size: 3em;
+  font-family: 'W95FA';
+  background-image: url("../src/assets/backgrounds/background_titles.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0%;
+}
+
+.main-text-portfolio{
+  display: flex;
+  flex-direction: column;
+  width: 70em;
+}
+
+.gallery-main{
+  display: grid;
+  grid-template-columns: 50% 50% 50%;
+  row-gap: 1em;
+  column-gap: -1em;
+}
+
+.skills-main{
+  align-items: center;
+}
+
+.skill-bar{
+  background-color: #2A2632;
+  height: 2.5em;
+  width: 20em;
+  text-align: left;
+}
+
+.skill-text{
+  padding: .5em;
+}
+
+.skill-level{
+  background-color: #31c7ae;
+  height: 2.5em;
+  position: relative;
+  top: -3.5em;
+  opacity: 20%;
+}
